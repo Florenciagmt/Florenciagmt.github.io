@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightyellow;
+}
+
+.columna {
+    float: left;
+    width: 30%;
+    background-color: grey;
+  }
+
+.columna2{
+    float: right;
+    width: 70%;
+}
+
+div {
+    padding-left: 60px;
+    padding-top: 50px;
+    background-color: rgb(128, 128, 128);
+}
+
+img {
+    margin-left: 60px;
+    margin-bottom: 30px;
+    width: 200px;  
+    height: 200px;
+    border-radius: 100px; 
+}
+
+ul {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: light;
+    font-size: 20px;
+    padding: 1px;
+    padding-top: 1px;
+    margin-left: 50px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    color: lightyellow;
+}
+
+div1 {
+padding: 30px;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    padding: 1px;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    padding: 1px;
+    margin-top: 5px;
+    margin-bottom: 70px;
+    color: darkslategrey;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    padding: 1px;
+    padding-top: 1px;
+    margin: 1px;
+    margin-top: 1px;
+    font-weight: bolder;
+    color: burlywood;
+}
+
+h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+    padding: 1px;
+    padding-top: 1px;
+    margin: 1px;
+    margin-left: 20px;
+    margin-top: 1px;
+    font-weight: bolder;
+    color: burlywood;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin: 1px;
+    margin-left: 30px;
+    font-size: 20px;
+    color: darkslategrey;
+}
+
+p1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: light;
+    font-size: 18px;
+    margin-left: 40px;
+    color: darkslategrey;
+}
+
+p2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 40px;
+    color: darkslategrey;
+}
+
+form {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 40px;
+    color: darkslategrey;
+}
+@media screen and (max-width: 600px) {
+    .columna, .columna2 {
+      width: 100%;
+    }
+  }
+
+.footer {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: darkslategrey;
+}
+
+
+.fa-phone{
+    font-size: 19px;
+    padding-right: 5px;
+    padding-left: 3px;
+    padding-bottom: 1px;
+}
+
+.fa-user {
+    font-size: 19px;
+    padding-right: 5px;
+    padding-left: 3px;
+    padding-bottom: 1px;
+}
+
+.fa-comment {
+    font-size: 19px;
+    padding-right: 5px;
+    padding-left: 3px;
+    padding-bottom: 1px;
+}
+
+.fa-pen {
+    font-size: 19px;
+    padding-right: 5px;
+    padding-left: 3px;
+    padding-bottom: 1px;
+}
+
+.fa-briefcase {
+    font-size: 19px;
+    padding-right: 5px;
+    padding-left: 3px;
+    padding-bottom: 1px;
+}
+
+.fa-landmark {
+    font-size: 19px;
+    padding-right: 5px;
+    padding-left: 3px;
+    padding-bottom: 1px;
+}
+
+.fa-circle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    margin: 1px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-size: 5px;
+    color: darkslategrey;
+}
+
+.fa-envelope {
+        font-size: 19px;
+        padding-right: 5px;
+        padding-left: 3px;
+        padding-bottom: 1px;
+    }
+
+#form{
+    display: none;
+}    
+
+button {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+    margin: 30px;
+    font-size: 20px;
+    color: lightyellow;
+    background-color: darkslategrey;
+}
